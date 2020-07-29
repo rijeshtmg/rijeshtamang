@@ -1,0 +1,83 @@
+//Grayscale
+$white: #fff;
+$gray-100: #f7f7f7;
+$gray-200: #f1f1f1;
+$gray-300: #e7e7e7;
+$gray-400: #e1e1e1;
+$gray-500: #cdcdcd;
+$gray-600: #888;
+$gray-700: #404040;
+$gray-800: #222;
+$gray-900: #111;
+$black: #000;
+
+//Brand
+$dark: #1c2420;
+$dark-fade: #787e7b;
+$light: $white;
+$light-secondary-light: #f7f7f7;
+$secondary-color: #008c72;
+$secondary-color-fade: #47bfac;
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/Fonts/Inter.ttf");
+}
+:root {
+  font-size: 14px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: $dark;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.align-center {
+  align-items: center;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+.align-space-around {
+  align-items: space-around;
+}
+.align-space-evenly {
+  align-items: space-evenly;
+}
+.align-flex-start {
+  align-items: flex-start;
+}
+.align-flex-end {
+  align-items: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+.justify-flex-start {
+  justify-content: flex-start;
+}
+.justify-flex-end {
+  justify-content: flex-end;
+}
+@import "./layout/layout";

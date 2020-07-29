@@ -1,0 +1,27 @@
+.header-cont {
+  background-color: $gray-100;
+  border-bottom: 0.05rem solid $gray-500;
+  header.header-content {
+    height: 4rem;
+    width: 100vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    .header-content-right {
+      .account-session {
+        * {
+          color: $light;
+        }
+        button.sign-in-btn {
+          border: none;
+          height: 4rem;
+          background-color: $secondary-color;
+          width: max-content;
+          padding: 0 1.5rem;
+          font-size: 0.85rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
